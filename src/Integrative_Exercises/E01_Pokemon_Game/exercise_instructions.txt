@@ -1,0 +1,17 @@
+A Pokemon fan wants to implement for the modeling of a video game the different attacks of each of these creatures.
+For this, it has an abstract class called Pokemon, which has the attributes: num_pokedex, namePokemon, weightPokemon,
+sex, seasonWhichAppears and type,
+and implements methods for the common attacks that most of them have, among them are: attackPlunge(), attackStab() and
+attackBite().
+However, this fan also developed a series of interfaces to contemplate attacks by Pokemon's of a certain type:
+-IElectric:with the methods attackThunderclap(), attackFistThunder(), attackRay(), attackChargeRay().
+-Plant: with the methods attackParalyze(), attackDrain(), attackSharpBlade(), attackWhipStrain().
+-Fire: with the methods attackPFistFire(), attackAcquires(), attackFlamethrower().
+-Water: with the methods attackHydro-pump(), attackWaterGun(), attackBubble(), attackHydro-pulse().
+From these interfaces, the Poke-fan wants to create the classes that handle the main characters of the video game,
+which are  of the video game, which are the Pokemon starters of the first season (Charmander, Bulbasaur and Squirtle)
+and Pikachu. To do so, bear in mind that: Charmander is fire type, Bulbasaur is plant type, Squirtle is water type and
+Pikachu is electric type. Once implemented the abstract class and interfaces, overwrite the corresponding methods
+to adapt them to each Pókemon showing a message in screen that indicates which pókemon it is and which attack it is
+carrying out, for example: "I am Charmander and I am attacking with Ascuas" or "I am Pikachu and I am attacking with
+tackle".  After doing the above, create the necessary instances and call each of the methods of each Pokemon.

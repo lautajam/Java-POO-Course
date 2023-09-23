@@ -3,10 +3,10 @@ package A01_Classes_Objects_Methods;
 public class Student {
 
     // Attributes
-    private static int lastId = 0;
-    private int id = 0;
-    private String name;
-    private String surname;
+    static int lastId = 0;
+    int id;
+    String name;
+    String surname;
 
     // Constructors
     public Student() {
