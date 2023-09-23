@@ -10,6 +10,19 @@ public abstract class Pokemon {
     private int season_appears;
     private String poke_type;
 
+    // Constructors
+    public Pokemon() {
+    }
+
+    public Pokemon(int poke_number, String poke_name, double poke_weight, char poke_gender, int season_appears, String poke_type){
+        this.poke_number = poke_number;
+        this.poke_name = poke_name;
+        this.poke_weight = poke_weight;
+        this.poke_gender = poke_gender;
+        this.season_appears = season_appears;
+        this.poke_type = poke_type;
+    }
+
     // Getters and Setters
     public int getPoke_number() {
         return poke_number;
