@@ -1,0 +1,15 @@
+Exercise: VideoGames
+
+Create a class called VideoGame, that has the following attributes:
+    Code, title, console,quantityPlayers, category.
+Take into account all its attributes, constructors, getters and setters methods.
+
+* Create an ArrayList of type VideoGame. Create 5 video-games and save them in the collection.
+
+* Traverse the created ArrayList and display the title, console and number of players on the screen:
+    The title, console and number of players of the stored video games.
+
+* Change the name and number of players of two video games.
+    Display the data of all the video games after the change.
+
+* Scroll through the ArrayList and display on screen only the video games that are from the "Nintendo 64" console.
