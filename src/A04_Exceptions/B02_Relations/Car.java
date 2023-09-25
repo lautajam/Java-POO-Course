@@ -1,4 +1,4 @@
-package A03_Collections.B06_Relations;
+package A04_Exceptions.B02_Relations;
 
 import java.util.List;
 

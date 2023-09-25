@@ -1,0 +1,19 @@
+Exercise: Plants
+
+Create a Plant class with the attributes: name, stem height, hasLeaves, ideal climate.
+With its corresponding methods and constructors.
+
+* Create its child classes that share its attributes and methods:
+
+	o Tree: variety, trunk type, trunk radius,
+		color, type of leaves.
+	o Flower: average number of petals, color of pistil,
+		color of petals, flower variety, blooming season.
+	o Shrub: widthShrub, isDomestic, varietyShrub, leavesColor, pruning
+
+* Once the classes are created, create the following methods:
+    o Tree: method to display a message on the screen saying "Hello I am a tree".
+    o Flower: method to display a message on the screen that says "Hello I am a flower".
+    o Shrub: method to display a message on the screen saying "Hello I am a bush".
+
+* Create in the Main an object of each child class. Call the 3 methods from each object.

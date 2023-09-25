@@ -1,4 +1,4 @@
-package Integrative_Exercises.E02;
+package Integrative_Exercises.E02_VideoGames;
 
 public class VideoGames {
 

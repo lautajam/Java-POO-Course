@@ -1,4 +1,4 @@
-package A03_Collections.B05_Exceptions;
+package A04_Exceptions.B01_Exceptions;
 
 import java.util.Arrays;
 import java.util.Scanner;
